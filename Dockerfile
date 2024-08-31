@@ -6,4 +6,4 @@ EXPOSE 3000
 
 COPY package*.json ./
 
-CMD ["npm","start"]
+RUN npm start
