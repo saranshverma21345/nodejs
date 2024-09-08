@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rat9615/simple-nodejs-app.git"
+    "url": "https://github.com/saranshverma21345/nodejs.git"
   },
   "author": "Rohan R",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rat9615/simple-nodejs-app/issues"
+    "url": "https://github.com/saranshverma21345/nodejs/issues"
   },
-  "homepage": "https://github.com/rat9615/simple-nodejs-app#readme",
+  "homepage": "https://github.com/saranshverma21345/nodejs#readme",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.17.3",
@@ -25,4 +25,20 @@
     "request": "^2.88.2",
     "wiki-infobox-parser": "^0.1.11"
   }
+
+  {
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Your Node.js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohan R",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://13.233.153.242:8081/repository/npm-hosted/"
+  }
+}
+
 }
