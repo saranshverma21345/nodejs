@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: doe56345/nodeapp:latest # Image that will be used to containers in the cluster
+          image: doe56345/nodejs-app:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 3000 # The port that the container is running on in the cluster
